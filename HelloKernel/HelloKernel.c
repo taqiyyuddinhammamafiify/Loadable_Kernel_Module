@@ -18,5 +18,5 @@ static void __exit hellokernel_exit(void)
 	printk(KERN_INFO "NIM \n");
 }
 
-module_init(hello_kernel);
-module_exit(hello_kernel);
+module_init(hellokernel_init);
+module_exit(hellokernel_exit);
