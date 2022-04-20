@@ -9,13 +9,13 @@ static int hellokernel_data __initdata = 3;
 
 static int __init hellokernel_init(void)
 {
-	printk(KERN_INFO "Hello, world %d\n", hello3_data);
+	printk(KERN_INFO "Nama %d\n", hellokernel_data);
 	return 0;
 }
 
 static void __exit hellokernel_exit(void)
 {
-	printk(KERN_INFO "Goodbye, world 3\n");
+	printk(KERN_INFO "NIM 3\n");
 }
 
 module_init(hello_kernel);
