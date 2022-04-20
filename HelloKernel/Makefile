@@ -1,4 +1,4 @@
-obj-m += hello-3.o
+obj-m += HelloKernel.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
@@ -8,10 +8,10 @@ clean:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
 
 insmod:
-	sudo insmod ./hello-3.ko
+	sudo insmod ./HelloKernel.ko
 
 rmmod:
-	sudo rmmod hello-3
+	sudo rmmod HelloKernel-3
 
 showmessage:
 	cat /var/log/syslog
