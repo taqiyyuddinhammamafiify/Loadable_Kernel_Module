@@ -8,12 +8,12 @@
 //static int hellokernel_data __initdata = 3;
 
 static int __init hellokernel_init(void){
-	printk(KERN_INFO "Nama \n")//, hellokernel_data);
+	printk(KERN_INFO "Taqiyyuddin Hammam 'Afiify \n")//, hellokernel_data);
 	return 0;
 }
 
 static void __exit hellokernel_exit(void){
-	printk(KERN_INFO "NIM \n");
+	printk(KERN_INFO "18/431079/TK/47672\n");
 }
 
 module_init(hellokernel_init);
