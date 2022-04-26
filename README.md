@@ -7,7 +7,7 @@ Main reference:
 https://github.com/reshalfahsi/raspberrypi-development/tree/master/kernelmodule
 
 ## Execution Steps
-### Remove previous directory and file if It is exist *optional*
+### Remove previous directory and file if It is exist (*optional*)
 $ make clean
 
 $ make rmmod
