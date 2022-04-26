@@ -1,5 +1,5 @@
-cc 			= gcc
-src 		= main.c
+cc 	= gcc
+src 	= main.c
 output 	= main
 
 all:
