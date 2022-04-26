@@ -1,4 +1,4 @@
-# Loadable_Kernel_Module
+# Loadable_Kernel_Module #
 Embedded Operating System Assigment
 
 Department of Electrical and Information Engineering UGM
@@ -6,18 +6,18 @@ Department of Electrical and Information Engineering UGM
 Main reference:
 https://github.com/reshalfahsi/raspberrypi-development/tree/master/kernelmodule
 
-## Execution Steps
-### Remove previous directory and file if It is exist (*optional*)
+## Execution Steps ##
+### Remove previous directory and file if It is exist (*optional*) ###
 $ make clean
 
 $ make rmmod
 
 $ make rmnod
 
-### Compilation of ".C" program
+### Compilation of ".C" program ###
 $ make all
 
-### Instalation of ".ko" module
+### Instalation of ".ko" module ###
 $ make insmod
 
 $ dmesg 
@@ -26,7 +26,7 @@ $ dmesg
 
 $ make mknod
 
-### Compilation and testing of application program
+### Compilation and testing of application program ###
 $ cd app
 
 $ make clean
