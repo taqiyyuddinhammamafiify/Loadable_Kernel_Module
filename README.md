@@ -32,5 +32,4 @@ $ cd app
 $ make clean
 
 $ make all
-
 $ make run
