@@ -17,7 +17,7 @@ int main() {
 	printf("Reading file %s...\n\n",device);
 	printf("Press (1) and ENTER to show NAME\n");
 	printf("Press (2) and ENTER to show NIM\n");
-	printf("Press (Random Key) and ENTER to EXIT\n\n");
+	printf("Press (Random Numbers) and ENTER to EXIT\n\n");
 	printf("Your Command: ");
 	scanf("%c", &var);
 	
