@@ -4,8 +4,9 @@
 
 #define device "/dev/HelloKernel"
 
-//Old Version
+//###########Old Version##########
 //int i = 1;
+//###########Old Version##########
 
 int main() {
 	FILE *fp;
@@ -74,7 +75,7 @@ int main() {
 	        printf("Quitting process ...\n\n");   
 	}
 	
-	//Old Version
+	//###########Old Version##########
 	/*
         for(i; i<=2; i++){
           fp = fopen(device,"r");
@@ -89,5 +90,7 @@ int main() {
  
           fclose(fp);
 	}*/
+	//###########Old Version##########
+	
 	return 0;
 }
