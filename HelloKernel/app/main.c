@@ -49,7 +49,6 @@ int main() {
 	        fp = fopen(device, "r");
 		    if (fp == NULL){
 	                printf("Can't open file %s\n", device);
-	                printf("Your Command: ");
 	                return 0;
 		    }
 		    
